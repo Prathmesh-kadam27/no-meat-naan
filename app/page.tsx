@@ -252,7 +252,7 @@ export default function Page() {
     <main className="site-shell">
       <div className="concept-strip">INDEPENDENT CONCEPT PROTOTYPE · NOT AN OFFICIAL CAFÉ SERVICE</div>
       <header className="masthead">
-        <img className="logo" src="/assets/no-meat-naan-logo.png" alt="No Meat Naan logo" />
+        <img className="logo" src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/assets/no-meat-naan-logo.png`} alt="No Meat Naan logo" />
         <div className="masthead-copy"><span className="est">ESTD. 2021</span><strong>NO MEAT NAAN</strong><span>COFFEE SHOP · BAKERY · PÂTISSERIE</span></div>
         <div className="table-tag">YOUR TABLE<br/><b>04</b></div>
       </header>
